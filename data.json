@@ -11,16 +11,17 @@
         0.0,
         0.0
     ],
-    "monthly_budget": 300.0,
     "charges": [
         [
             {
                 "name": "Chipotle",
-                "amount": 16.35
+                "amount": 16.35,
+                "date": "2024-12-04"
             }
         ],
         [],
         [],
         []
-    ]
+    ],
+    "monthly_budget": 300.0
 }

@@ -1,8 +1,8 @@
 def calculate_dynamic_weekly_budget(monthly_budget, planned_outings):
-    """Dynamically allocates the weekly budget based on planned outings."""
+    """Calculate weekly budgets dynamically based on planned outings."""
     total_outings = sum(planned_outings)
     if total_outings == 0:
-        # If no outings are planned, distribute equally
+        # Prevent division by zero; distribute equally
         return [monthly_budget / 4] * 4
     return [
         (monthly_budget * outings / total_outings) if outings > 0 else 0
